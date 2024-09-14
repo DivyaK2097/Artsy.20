@@ -1,11 +1,14 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Trirong|Jaro|Rowdies');
+
 /* General Styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Trirong', sans-serif;
     margin: 0;
     padding: 0;
     color: #333;
     line-height: 1.6;
-    background-color: #f0f4f8; /* Aesthetic pastel background color */
+    background-color:#f0f4f8; /* Aesthetic pastel background color */
 }
 
 header {
@@ -29,11 +32,13 @@ nav {
 }
 
 .logo {
-    font-size: 1.5rem;
+    font-family: 'Jaro';
+    font-size: 2.5rem;
     font-weight: bold;
 }
 
 .nav-links {
+    font-family: 'Rowdies';
     list-style: none;
     display: flex;
     gap: 1rem;
@@ -71,7 +76,6 @@ section {
     margin: 0 auto;
     padding: 0 1rem;
 }
-
 h1{
     font-size: 3rem;
     animation: welcomeslide;
