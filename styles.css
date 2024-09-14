@@ -72,6 +72,23 @@ section {
     padding: 0 1rem;
 }
 
+h1{
+    font-size: 3rem;
+    animation: welcomeslide;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes welcomeslide{
+    from{
+        margin-left: 100px;
+    }
+    to{
+        margin-right: 0px;
+    }
+}
+
+
 h2 {
     text-align: center;
     margin-bottom: 2rem;
